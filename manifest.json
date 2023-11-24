@@ -3,7 +3,7 @@
 
     "name": "Loop Sounds",
     "description": "Loop YouTube links in the background for your listening pleasure",
-    "version": 1.0,
+    "version": "1.0",
 
     "icons": {
         "32": "images/icon-32.png",

@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Youtube Sans"; /*a name to be used later*/
+    src: url(fonts/YouTubeSansBold.otf);
+}
+
+.formProperties {
+    font-family: "YouTube Sans", sans-serif;
+    border-color: transparent;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.formText {
+    font-family: "YouTube Sans", sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+.formButton {
+    font-family: "YouTube Sans", sans-serif;
+    background-color: white;
+    border-color: transparent;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+html, body {
+    background-color: red;
+    width: 400px;
+    height: 200px;
+}

@@ -2,19 +2,26 @@
 
 <html>
 
-<head></head>
+<head>
+    <title>Loop Sounds</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
 
 <body>
 
-    <form id="linkForm" onsubmit="submitLink(event)">
-        <label for="link">Paste YouTube link:</label>
-        <input type="url" id="link" name="link" pattern="https://www.youtube.com/.*" required>
-        <input type="submit" value="Play">
+    <form class="formProperties" id="linkForm" onsubmit="submitLink(event)">
+        <div>
+            <label class="formText" for="link">Paste YouTube link:</label>
+        </div>
+        
+        <input class="formProperties" type="url" id="link" name="link" pattern="https://www.youtube.com/.*" required>
+        <input class="formButton" type="submit" value="Play">
     </form>
 
-    <div id="iframe-video" class="video-iframe"></div>
-
-    <script src="https://www.youtube.com/iframe_api"></script>
+    <div>
+    <iframe width=”560" height=”315" src=”https://www.youtube.com/embed/" + enteredLink + "?enablejsapi=1&version=3"
+    frameborder=”0" allowfullscreen id=”vid1" enablejsapi=”1" class=”yt-video”></iframe>
+    </div>
 
 </body>
 
