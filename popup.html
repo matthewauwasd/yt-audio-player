@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+
+<head></head>
+
+<body>
+
+    <form id="linkForm" onsubmit="submitLink(event)">
+        <label for="link">Paste YouTube link:</label>
+        <input type="url" id="link" name="link" pattern="https://www.youtube.com/.*" required>
+        <input type="submit" value="Play">
+    </form>
+
+    <div id="iframe-video" class="video-iframe"></div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+</body>
+
+</html>
